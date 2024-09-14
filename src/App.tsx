@@ -20,9 +20,9 @@ function App() {
   return (
     <div className="h-screen w-screen bg-white">
       <div className="flex justify-center items-center h-full">
-        <div className="bg-white/20 backdrop-blur-md rounded-lg border-[1px] border-black p-4 flex flex-col items-center justify-center">
+        <div className="bg-gray-200 backdrop-blur-md rounded-lg border-[1px] border-black p-6 w-auto mx-16 flex flex-col items-center justify-center">
           <h1 className="text-2xl font-bold my-4 text-center p-4">
-            Ask your Questions <br /> to Unpaid MOM
+            Ask your Questions to Unpaid MOM
           </h1>
           <div className="flex flex-col items-center justify-center">
             <input
@@ -48,8 +48,8 @@ function App() {
             </button>
           </div>
           <textarea
-            className="w-full p-2 mt-4 rounded-md border-[1px] border-black resize-non backdrop-blur-md"
-            rows={4}
+            className="w-full h-auto p-2 mt-4 rounded-md border-[1px] border-black resize-non backdrop-blur-md"
+            rows={8}
             readOnly
             value={response}
           />
